@@ -2,38 +2,38 @@
 **Proyek:** Simple Multi-Vendor Website
 **Versi:** 1.0
 
-## [cite_start]1. Pendahuluan 
-### [cite_start]1.1 Tujuan 
+## 1. Pendahuluan
+### 1.1 Tujuan
 Dokumen ini bertujuan untuk memberikan deskripsi komprehensif mengenai spesifikasi kebutuhan perangkat lunak untuk aplikasi Simple Multi-Vendor Website. Dokumen ini akan menjadi acuan bagi tim pengembang dan tim QA (*Quality Assurance*) dalam proses perancangan dan pengujian sistem.
 
-### [cite_start]1.2 Ruang Lingkup 
+### 1.2 Ruang Lingkup
 Perangkat lunak ini adalah sebuah website *e-commerce multi-vendor* yang dibangun menggunakan *framework* Django (Python). Sistem ini memfasilitasi tiga jenis interaksi utama:
 - **Vendor (Toko):** Dapat mendaftar, mengelola profil, dan menambahkan produk mereka ke platform.
 - **User (Pembeli):** Dapat melihat produk, melakukan *checkout*, dan membayar pesanan menggunakan Kartu Debit/Kredit.
 - **Admin:** Memiliki hak akses penuh untuk mengelola master data (kategori, produk, pengguna, dan pesanan keseluruhan).
 
-### [cite_start]1.3 Definisi, Istilah, dan Singkatan 
+### 1.3 Definisi, Istilah, dan Singkatan
 - **Vendor:** Pemilik toko atau penjual independen yang menawarkan produk di dalam website.
 - **Stripe:** Layanan *payment gateway* pihak ketiga yang digunakan untuk memproses transaksi kartu kredit/debit secara aman.
 - **Django:** *Framework* pengembangan web yang ditulis menggunakan bahasa pemrograman Python.
 - **Virtual Environment (venv):** Lingkungan virtual terisolasi untuk menginstal pustaka perangkat lunak.
 
-### [cite_start]1.4 Referensi 
+### 1.4 Referensi
 - Repositori Proyek: `https://github.com/vijaythapa333/simple-multivendor-site`
 - File `README.md` dokumentasi proyek.
 
-### [cite_start]1.5 Teknologi yang Digunakan 
+### 1.5 Teknologi yang Digunakan
 - **Bahasa Pemrograman:** Python (versi terbaru)
 - **Web Framework:** Django
 - **Payment Processor:** Stripe
 - **Package Manager:** Pip
 - **Version Control:** Git
 
-### [cite_start]1.6 Gambaran Umum Dokumen 
-#### [cite_start]1.6.1 Deskripsi Gambaran Umum 
+### 1.6 Gambaran Umum Dokumen
+#### 1.6.1 Deskripsi Gambaran Umum
 Dokumen ini dibagi menjadi dua bagian utama. Bagian pertama berisi pendahuluan yang mencakup tujuan, ruang lingkup, dan teknologi proyek. Bagian kedua menjabarkan deskripsi umum sistem, termasuk perspektif antarmuka, karakteristik pengguna, dan batasan perangkat lunak.
 
-#### [cite_start]1.6.2 Kebutuhan Fungsional 
+#### 1.6.2 Kebutuhan Fungsional
 Berikut adalah rincian kebutuhan fungsional utama berdasarkan hak akses pengguna:
 
 **A. Kebutuhan Fungsional Admin:**
@@ -56,32 +56,32 @@ Berikut adalah rincian kebutuhan fungsional utama berdasarkan hak akses pengguna
 
 ---
 
-## [cite_start]2. Deskripsi Umum 
-### [cite_start]2.1 Perspektif Produk 
+## 2. Deskripsi Umum
+### 2.1 Perspektif Produk
 Simple Multi-Vendor Website adalah sistem *e-commerce* berbasis web independen. Sistem ini bertindak sebagai perantara digital (*marketplace*) yang menghubungkan berbagai penjual independen ke dalam satu wadah etalase untuk bertransaksi dengan pembeli.
 
-### [cite_start]2.2 Software Interface 
+### 2.2 Software Interface
 - Antarmuka pengguna (*User Interface*) diakses menggunakan peramban web (*web browser*) modern.
 - Sistem berinteraksi secara *backend* dengan API Stripe untuk pemrosesan dan verifikasi transaksi keuangan.
 
-### [cite_start]2.3 Hardware Interface 
+### 2.3 Hardware Interface
 - **Sisi Klien:** Perangkat komunikasi keras (PC, Laptop, atau Smartphone) yang terkoneksi internet.
 - **Sisi Server:** Server komputasi (lokal atau komersial) yang kompatibel menjalankan *environment* instalasi Python.
 
-### [cite_start]2.4 Manfaat Produk 
+### 2.4 Manfaat Produk
 - Mengakomodasi kebutuhan banyak penjual untuk membuka toko digital secara praktis tanpa merancang website mandiri.
 - Mempermudah pembeli untuk berbelanja produk dari berbagai toko (vendor) berbeda hanya dalam satu proses pemesanan.
 - Menjamin keamanan transaksi non-tunai dengan integrasi prosesor pembayaran global.
 
-### [cite_start]2.5 Karakteristik User 
+### 2.5 Karakteristik User
 1. **Admin:** Bertindak sebagai pengawas (*superuser*), diasumsikan memiliki pemahaman teknis sistem untuk memelihara operasional kategori dan pengguna.
 2. **Vendor:** Pengguna dengan tingkat literasi digital dasar yang mampu mengelola inventaris produk, mengunggah foto, dan memantau antrean pesanan.
 3. **User (Pembeli):** Konsumen umum yang memiliki akses ke instrumen pembayaran kartu dan mampu melakukan navigasi pemesanan barang *online*.
 
-### [cite_start]2.6 Batasan-Batasan 
+### 2.6 Batasan-Batasan
 - Kelancaran transaksi *checkout* memiliki ketergantungan mutlak pada ketersediaan dan responsivitas server API Stripe.
 - Sistem mewajibkan konfigurasi `ALLOWED_HOSTS` khusus pada file `settings.py` agar aplikasi dapat dijalankan dari sisi server.
 
-### [cite_start]2.7 Asumsi dan Ketergantungan 
+### 2.7 Asumsi dan Ketergantungan
 - Diasumsikan seluruh aktivitas pendaftaran profil (Vendor dan User) menggunakan alamat email yang valid dan aktif untuk memastikan fitur notifikasi berjalan semestinya.
 - Bergantung pada manajer paket `pip` untuk memastikan semua *requirements* pendukung aplikasi terinstal dengan sempurna pada lingkungan virtual.
