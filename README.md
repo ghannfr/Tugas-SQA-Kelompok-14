@@ -7,9 +7,9 @@ Repository ini berisi dokumen Software Quality Assurance (SQA) dari Kelompok 14.
 ## 👥 Anggota Kelompok
 | No | Nama Lengkap | NIM |
 |:--:|:---|:---:|
-| 1 | [Ghani Nasywa Fadlurohman] | [20231310082] |
-| 2 | [Maman Hidayat] | [20231310088] |
-| 3 | [Tania Cahyani Putri] | [20231310098] |
+| 1 | Ghani Nasywa Fadlurohman | 20231310082 |
+| 2 | Maman Hidayat | 20231310088 |
+| 3 | Tania Cahyani Putri | 20231310098 |
 
 ---
 
