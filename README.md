@@ -1,5 +1,19 @@
 # Tugas-SQA-Kelompok-14
 
+Repository ini berisi dokumen Software Quality Assurance (SQA) dari Kelompok 14. Objek perangkat lunak yang kami jadikan studi kasus pengujian adalah aplikasi multivendor e-commerce (Referensi: [simple-multivendor-site](https://github.com/vijaythapa333/simple-multivendor-site)).
+
+---
+
+## 👥 Anggota Kelompok
+| No | Nama Lengkap | NIM |
+|:--:|:---|:---:|
+| 1 | [Nama Anggota 1] | [NIM Anggota 1] |
+| 2 | [Nama Anggota 2] | [NIM Anggota 2] |
+| 3 | [Nama Anggota 3] | [NIM Anggota 3] |
+| 4 | [Nama Anggota 4] | [NIM Anggota 4] |
+
+---
+
 ## 📂 Struktur Direktori Dokumen
 
 Silakan klik pada nama folder atau file di bawah ini untuk mengakses dokumen pengujian:
