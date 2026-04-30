@@ -82,4 +82,4 @@ Silakan klik pada nama folder atau file di bawah ini untuk mengakses dokumen pen
     * 📄 [3.3 Pencarian Berdasarkan Predefined](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.3%20Pencarian%20Berdasarkan%20Predefined)
     * 📄 [3.4 Halaman Tentang](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.4%20Halaman%20Tentang)
 
-Repository ini berisi dokumen Software Quality Assurance (SQA) dari Kelompok 14. Objek perangkat lunak yang kami jadikan studi kasus pengujian adalah aplikasi multivendor e-commerce (Referensi: https://github.com/vijaythapa333/simple-multivendor-site)
+Repository ini berisi dokumen Software Quality Assurance (SQA) dari Kelompok 14. Objek perangkat lunak yang kami jadikan studi kasus pengujian adalah aplikasi pengaduan masyarakat
